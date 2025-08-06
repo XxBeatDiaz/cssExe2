@@ -7,7 +7,7 @@ body {
 
 .app {
   max-width: 400px;
-  margin: 50px auto;
+  margin: 40px auto 0px;
   border-radius: 24px;
   box-shadow: 0 0 10px rgba(30, 113, 167, 0.4);
   overflow: hidden;
@@ -50,7 +50,9 @@ body {
 }
 
 .d-preview {
-  margin: 70px 63px 30px;;
+  display: flex;
+  width: 70%;
+  margin: 70px auto 30px;
   align-items: center;
   background: #f0f0f0;
   border-radius: 24px;
@@ -60,15 +62,20 @@ body {
   padding: 20px;
 }
 
+.form .label {
+  margin-left: 10px;
+}
+
 input[type="text"] {
-  width: 99%;
-  padding: 11px;
+  width: 60%;
+  padding: 10px;
   font-size: 16px;
   border: 1px solid #ccc;
   box-shadow: 0 0 10px rgba(30, 113, 167, 0.1);
   border-radius: 8px;
   box-sizing: border-box;
   margin-bottom: 24px;
+  margin-left: 3px;
 }
 
 .next-btn {
